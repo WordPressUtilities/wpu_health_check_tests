@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WWPU Health Check Tests\n"
+"POT-Creation-Date: 2020-05-30 22:31+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Darklg <darklg.blog@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ../.\n"
+
+#: .././tests/autoloaded_options_weight.php:10
+msgid "Autoloaded options weight"
+msgstr "Poids des options autochargées"
+
+#: .././tests/autoloaded_options_weight.php:18
+msgid "Autoloaded options weight is correct"
+msgstr "Le poids des options autochargées est correct"
+
+#: .././tests/autoloaded_options_weight.php:19
+msgid ""
+"Autoloaded options should not exceed a certain weight. Your website seems ok."
+msgstr ""
+"Les options autochargées ne doivent pas dépasser un certain poids. Votre "
+"site semble ok."
+
+#: .././tests/autoloaded_options_weight.php:21
+msgid "Performance"
+msgstr "Performance"
+
+#: .././tests/autoloaded_options_weight.php:29
+msgid "Autoloaded options weight should be examined"
+msgstr "Le poids des options autochargées doit être examiné"
+
+#: .././tests/autoloaded_options_weight.php:30
+msgid ""
+"The autoloaded options may be too heavy. It could be slowing down your "
+"website"
+msgstr ""
+"Les options autochargées peuvent être trop lourdes. Celà pourrait ralentir "
+"votre site Web"
+
+#: .././tests/autoloaded_options_weight.php:33
+msgid "Autoloaded options weight is too heavy"
+msgstr "Le poids des options autochargées est trop lourd"
+
+#: .././tests/autoloaded_options_weight.php:34
+msgid "The autoloaded options are too heavy. It is slowing down your website"
+msgstr "Les options autochargées sont trop lourdes. Il ralentit votre site Web"
+
+#~ msgid "Autoload Option Size"
+#~ msgstr "Taille des options en autoload"
+
+#~ msgid "Autoload Option Size is correct"
+#~ msgstr "Le poids des options en autoload est correct"
+
+#~ msgid "Autoload Option Size should be examined"
+#~ msgstr "Le poids des options en autoload devrait être examiné."
+
+#~ msgid "Autoload Option Size is too heavy"
+#~ msgstr "Le poids des options en autoload est trop lourd"
