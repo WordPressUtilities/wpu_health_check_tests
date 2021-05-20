@@ -15,6 +15,7 @@ class wpu_health_check_tests__autoloaded_options_weight {
 
     public function run_test() {
         $result = array(
+            'test' => 'wpu_health_check_tests__correct_table_format',
             'label' => __('Autoloaded options weight is correct', 'wpu_health_check_tests'),
             'description' => '<p>' . __('Autoloaded options should not exceed a certain weight. Your website seems ok.', 'wpu_health_check_tests') . '</p>',
             'badge' => array(

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WWPU Health Check Tests\n"
-"POT-Creation-Date: 2020-05-30 22:31+0200\n"
+"POT-Creation-Date: 2021-05-20 19:00+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Darklg <darklg.blog@gmail.com>\n"
 "Language-Team: \n"
@@ -9,36 +9,37 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4.3\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: ../.\n"
 
 #: .././tests/autoloaded_options_weight.php:10
-msgid "Autoloaded options weight"
-msgstr "Poids des options autochargées"
+msgid "Correct table format"
+msgstr "Format de table correct"
 
-#: .././tests/autoloaded_options_weight.php:18
+#: .././tests/autoloaded_options_weight.php:19
 msgid "Autoloaded options weight is correct"
 msgstr "Le poids des options autochargées est correct"
 
-#: .././tests/autoloaded_options_weight.php:19
+#: .././tests/autoloaded_options_weight.php:20
 msgid ""
 "Autoloaded options should not exceed a certain weight. Your website seems ok."
 msgstr ""
 "Les options autochargées ne doivent pas dépasser un certain poids. Votre "
 "site semble ok."
 
-#: .././tests/autoloaded_options_weight.php:21
+#: .././tests/autoloaded_options_weight.php:22
+#: .././tests/correct_tables_charset.php:22
 msgid "Performance"
 msgstr "Performance"
 
-#: .././tests/autoloaded_options_weight.php:29
+#: .././tests/autoloaded_options_weight.php:30
 msgid "Autoloaded options weight should be examined"
 msgstr "Le poids des options autochargées doit être examiné"
 
-#: .././tests/autoloaded_options_weight.php:30
+#: .././tests/autoloaded_options_weight.php:31
 msgid ""
 "The autoloaded options may be too heavy. It could be slowing down your "
 "website"
@@ -46,13 +47,52 @@ msgstr ""
 "Les options autochargées peuvent être trop lourdes. Celà pourrait ralentir "
 "votre site Web"
 
-#: .././tests/autoloaded_options_weight.php:33
+#: .././tests/autoloaded_options_weight.php:34
 msgid "Autoloaded options weight is too heavy"
 msgstr "Le poids des options autochargées est trop lourd"
 
-#: .././tests/autoloaded_options_weight.php:34
+#: .././tests/autoloaded_options_weight.php:35
 msgid "The autoloaded options are too heavy. It is slowing down your website"
 msgstr "Les options autochargées sont trop lourdes. Il ralentit votre site Web"
+
+#: .././tests/correct_tables_charset.php:10
+msgid "Table charset"
+msgstr "Charset de table"
+
+#: .././tests/correct_tables_charset.php:19
+msgid "Table charset is correct"
+msgstr "Le charset des tables est correct"
+
+#: .././tests/correct_tables_charset.php:20
+msgid "No table have an old charset. Your website seems ok."
+msgstr "Aucune table n’a un charset obsolète. Votre site web semble ok."
+
+#: .././tests/correct_tables_charset.php:30
+msgid "Table charset should be examined"
+msgstr "Le charset des tables devrait être examiné"
+
+#: .././tests/correct_tables_charset.php:31
+msgid ""
+"At least one table is using an outdated charset. It can cause problems with "
+"emojis."
+msgstr ""
+"Au moins une table utilise un charset obsolète. Cela peut causer des "
+"problèmes avec les emojis."
+
+#: .././tests/correct_tables_charset.php:34
+msgid "Table charset should be fixed"
+msgstr "Le charset des tables doit être fixé"
+
+#: .././tests/correct_tables_charset.php:35
+msgid ""
+"Multiple tables are using an outdated charset. It can cause problems with "
+"emojis."
+msgstr ""
+"Plusieurs tables utilisent un charset obsolète. Cela peut causer des "
+"problèmes avec les emojis."
+
+#~ msgid "Autoloaded options weight"
+#~ msgstr "Poids des options autochargées"
 
 #~ msgid "Autoload Option Size"
 #~ msgstr "Taille des options en autoload"
