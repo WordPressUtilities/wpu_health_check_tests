@@ -45,7 +45,6 @@ class wpu_health_check_tests__correct_tables_charset {
         $errors = 0;
         foreach ($tables as $table) {
             if ($table->TABLE_NAME == $wpdb->postmeta || $table->TABLE_NAME == $wpdb->usermeta || $table->TABLE_NAME == $wpdb->posts || $table->TABLE_NAME == $wpdb->termmeta) {
-                error_log($table->TABLE_COLLATION);
                 if ($table->TABLE_COLLATION == 'utf8_general_ci') {
                     $errors++;
                 }
