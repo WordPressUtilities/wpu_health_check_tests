@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WWPU Health Check Tests\n"
-"POT-Creation-Date: 2021-05-20 19:00+0200\n"
+"POT-Creation-Date: 2023-01-04 10:16+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Darklg <darklg.blog@gmail.com>\n"
 "Language-Team: \n"
@@ -9,15 +9,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: ../.\n"
 
 #: .././tests/autoloaded_options_weight.php:10
-msgid "Correct table format"
-msgstr "Format de table correct"
+msgid "Autoloaded options weight"
+msgstr "Poids des options autochargées"
 
 #: .././tests/autoloaded_options_weight.php:19
 msgid "Autoloaded options weight is correct"
@@ -35,11 +35,11 @@ msgstr ""
 msgid "Performance"
 msgstr "Performance"
 
-#: .././tests/autoloaded_options_weight.php:30
+#: .././tests/autoloaded_options_weight.php:42
 msgid "Autoloaded options weight should be examined"
 msgstr "Le poids des options autochargées doit être examiné"
 
-#: .././tests/autoloaded_options_weight.php:31
+#: .././tests/autoloaded_options_weight.php:43
 msgid ""
 "The autoloaded options may be too heavy. It could be slowing down your "
 "website"
@@ -47,13 +47,18 @@ msgstr ""
 "Les options autochargées peuvent être trop lourdes. Celà pourrait ralentir "
 "votre site Web"
 
-#: .././tests/autoloaded_options_weight.php:34
+#: .././tests/autoloaded_options_weight.php:47
 msgid "Autoloaded options weight is too heavy"
 msgstr "Le poids des options autochargées est trop lourd"
 
-#: .././tests/autoloaded_options_weight.php:35
+#: .././tests/autoloaded_options_weight.php:48
 msgid "The autoloaded options are too heavy. It is slowing down your website"
 msgstr "Les options autochargées sont trop lourdes. Il ralentit votre site Web"
+
+#: .././tests/autoloaded_options_weight.php:52
+#, php-format
+msgid "Current weight: %sko"
+msgstr "Poids actuel: %sko"
 
 #: .././tests/correct_tables_charset.php:10
 msgid "Table charset"
@@ -91,8 +96,8 @@ msgstr ""
 "Plusieurs tables utilisent un charset obsolète. Cela peut causer des "
 "problèmes avec les emojis."
 
-#~ msgid "Autoloaded options weight"
-#~ msgstr "Poids des options autochargées"
+#~ msgid "Correct table format"
+#~ msgstr "Format de table correct"
 
 #~ msgid "Autoload Option Size"
 #~ msgstr "Taille des options en autoload"
