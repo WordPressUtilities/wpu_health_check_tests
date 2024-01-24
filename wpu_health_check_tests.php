@@ -3,7 +3,7 @@
 Plugin Name: WPU Health Check Tests
 Plugin URI: https://github.com/WordPressUtilities/wpu_health_check_tests
 Description: Add More Health Checks Tests
-Version: 0.2.2
+Version: 0.2.3
 Author: Darklg
 Author URI: http://darklg.me/
 License: MIT License
